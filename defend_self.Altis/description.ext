@@ -1,0 +1,34 @@
+class CfgFunctions
+{
+	class FUNmission
+	{
+		class fun_mode
+		{
+		
+			class troopReinforcement
+			{
+				file = "function\troopReinforcement.sqf";
+			};
+			class supplyDrop
+			{
+				file = "function\supplyDrop.sqf"
+			};
+			class vehicleDrop
+			{
+				file = "function\vehicleDrop.sqf"
+			};
+			class randomGears
+			{
+				file = "function\randomItemQuery.sqf"
+			};			
+			class fillUnitAmmo
+			{
+				file = "function\fillUnitAmmo.sqf";
+			};
+			class vehicleReinforcement
+			{
+				file = "function\vehicleReinforcement.sqf";
+			};			
+		};
+	};
+};
